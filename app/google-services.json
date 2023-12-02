@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517871126143",
+    "project_id": "chaskifood2023",
+    "storage_bucket": "chaskifood2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517871126143:android:6509a6aeca2b6f67eda14a",
+        "android_client_info": {
+          "package_name": "com.example.chaskiproyectofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB87VHLpvcq_76Pc0wl47K9zf7WuSfCHaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

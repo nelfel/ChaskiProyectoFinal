@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textViewAsunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asunto" />
+
+        <EditText
+            android:id="@+id/editTextAsunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:maxLines="5"
+            android:hint="Ingrese el asunto" />
+
+        <TextView
+            android:id="@+id/textViewMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mensaje" />
+
+        <EditText
+            android:id="@+id/editTextMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:maxLines="10"
+            android:hint="Ingrese su mensaje" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

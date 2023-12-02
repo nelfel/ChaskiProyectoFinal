@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChaskiProyectoFinal" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+    </style>
+
+
+    <style name="Theme.ChaskiProyectoFinal" parent="Base.Theme.ChaskiProyectoFinal" />
+</resources>
+

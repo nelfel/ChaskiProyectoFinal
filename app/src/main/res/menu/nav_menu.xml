@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/navPrincipal"
+        android:icon="@drawable/comida"
+        android:title="Principal" />
+    <item
+        android:id="@+id/navSeguimiento"
+        android:icon="@drawable/seguimiento"
+        android:title="@string/menu_seguimiento" />
+    <item
+        android:id="@+id/navSoporte"
+        android:icon="@drawable/soporte"
+        android:title="@string/menu_soporte" />
+    <item
+        android:id="@+id/navCerrar"
+        android:icon="@drawable/close"
+        android:title="Cerrar Sesion" />
+</menu>

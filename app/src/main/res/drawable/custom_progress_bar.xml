@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/custom_progress_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo de la ProgressBar -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#e0e0e0" /> <!-- Color de fondo -->
+            <corners android:radius="50dp" /> <!-- Radio de las esquinas -->
+        </shape>
+    </item>
+
+    <!-- Capa de progreso de la ProgressBar -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="#FF0000" /> <!-- Color de progreso (rojo en este caso) -->
+                <corners android:radius="50dp" /> <!-- Radio de las esquinas -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
